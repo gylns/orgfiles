@@ -1,0 +1,80 @@
+
+
+* The HALCON Parameter
+  
+  /OPERATOR(input_object : output_object : input_control : output_control)/
+  
+
+* Himage
+  The origin of an image matrix is at position (0,0).
+  Row coordinates range from 0 to height - 1, column coordinates from 0 to width - 1.
+
+* Region
+ 
+  region_features
+
+|-------------------+------------------------------------------------------------------------------------------------|
+| area              | Area of the object                                                                             |
+| row               | Row index of the center                                                                        |
+| column            | Column index of the center                                                                     |
+| width             | Width of the region                                                                            |
+| height            | Height of the region                                                                           |
+| row1              | Row index of upper left corner                                                                 |
+| column1           | Column index of upper left corner                                                              |
+| row2              | Row index of lower right corner                                                                |
+| column2           | Column index of lower right corner                                                             |
+| circularity       | Circularity (see circularity)                                                                  |
+| compactness       | Compactness (see compactness)                                                                  |
+| contlength        | Total length of contour (see operator contlength)                                              |
+| convexity         | Convexity (see convexity)                                                                      |
+| rectangularity    | Rectangularity (see rectangularity)                                                            |
+| ra                | Main radius of the equivalent ellipse (see elliptic_axis)                                      |
+| rb                | Secondary radius of the equivalent ellipse (see elliptic_axis)                                 |
+| phi               | Orientation of the equivalent ellipse (see elliptic_axis)                                      |
+| anisometry        | Anisometry (see eccentricity)                                                                  |
+| bulkiness         | Bulkiness (see operator eccentricity)                                                          |
+| struct_factor     | Structur Factor (see operator eccentricity)                                                    |
+| outer_radius      | Radius of smallest surrounding circle (see smallest_circle)                                    |
+| inner_radius      | Radius of largest inner circle (see inner_circle)                                              |
+| inner_width       | Width of the largest axis-parallel rectangle that fits into the region (see inner_rectangle1)  |
+| inner_height      | Height of the largest axis-parallel rectangle that fits into the region (see inner_rectangle1) |
+| dist_mean         | Mean distance from the region border to the center (see operator roundness)                    |
+| dist_deviation    | Deviation of the distance from the region border from the center (see operator roundness)      |
+| roundness         | Roundness (see operator roundness)                                                             |
+| num_sides         | Number of polygon sides (see operator roundness)                                               |
+| connect_num       | Number of connection components (see operator connect_and_holes)                               |
+| holes_num         | Number of holes (see operator connect_and_holes)                                               |
+| area_holes        | Area of the holes of the object (see operator area_holes)                                      |
+| max_diameter      | Maximum diameter of the region (see operator diameter_region)                                  |
+| orientation       | Orientation of the region (see operator orientation_region)                                    |
+| euler_number      | Euler number (see operator euler_number)                                                       |
+| rect2_phi         | Orientation of the smallest surrounding rectangle (see operator smallest_rectangle2)           |
+| rect2_len1        | Half the length of the smallest surrounding rectangle (see operator smallest_rectangle2)       |
+| rect2_len2        | Half the width of the smallest surrounding rectangle (see operator smallest_rectangle2)        |
+| moments_m11       | Geometric moments of the region (see operator moments_region_2nd)                              |
+| moments_m20       | Geometric moments of the region (see operator moments_region_2nd)                              |
+| moments_m02       | Geometric moments of the region (see operator moments_region_2nd)                              |
+| moments_ia        | Geometric moments of the region (see operator moments_region_2nd)                              |
+| moments_ib        | Geometric moments of the region (see operator moments_region_2nd)                              |
+| moments_m11_invar | Geometric moments of the region (see operator moments_region_2nd_invar)                        |
+| moments_m20_invar | Geometric moments of the region (see operator moments_region_2nd_invar)                        |
+| moments_m02_invar | Geometric moments of the region (see operator moments_region_2nd_invar)                        |
+| moments_phi1      | Geometric moments of the region (see operator moments_region_2nd_rel_invar)                    |
+| moments_phi2      | Geometric moments of the region (see operator moments_region_2nd_rel_invar)                    |
+| moments_m21       | Geometric moments of the region (see operator moments_region_3rd)                              |
+| moments_m12       | Geometric moments of the region (see operator moments_region_3rd)                              |
+| moments_m03       | Geometric moments of the region (see operator moments_region_3rd)                              |
+| moments_m30       | Geometric moments of the region (see operator moments_region_3rd)                              |
+| moments_m21_invar | Geometric moments of the region (see operator moments_region_3rd_invar)                        |
+| moments_m12_invar | Geometric moments of the region (see operator moments_region_3rd_invar)                        |
+| moments_m03_invar | Geometric moments of the region (see operator moments_region_3rd_invar)                        |
+| moments_m30_invar | Geometric moments of the region (see operator moments_region_3rd_invar)                        |
+| moments_i1        | Geometric moments of the region (see operator moments_region_central)                          |
+| moments_i2        | Geometric moments of the region (see operator moments_region_central)                          |
+| moments_i3        | Geometric moments of the region (see operator moments_region_central)                          |
+| moments_i4        | Geometric moments of the region (see operator moments_region_central)                          |
+| moments_psi1      | Geometric moments of the region (see operator moments_region_central_invar)                    |
+| moments_psi2      | Geometric moments of the region (see operator moments_region_central_invar)                    |
+| moments_psi3      | Geometric moments of the region (see operator moments_region_central_invar)                    |
+| moments_psi4      | Geometric moments of the region (see operator moments_region_central_invar)                    |
+|-------------------+------------------------------------------------------------------------------------------------|

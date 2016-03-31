@@ -1,0 +1,12 @@
+
+* statistical features
+
+** edge density
+
+   - Detecting People in Images: An Edge Density Approach , 2007
+
+* linear feature
+
+  - remote sensing: extraction of road networks
+
+  - medical imaging: blood vessel segmentation

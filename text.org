@@ -1,0 +1,32 @@
+
+* Papers
+
+  - Text segmentation using gabor filters for automatic document processing, 1992
+
+  - Finding text in images, 1997
+
+  - TextFinder: An Automatic System to Detect and Recognize Text in Images, 1999
+
+  - A Survey of Text Detection and Recognition in Images and Videos, 2000
+
+  - Automatic Text Detection and Tracking in Digital Video, 2000
+
+  - Detecting and Reading Text in Natural Scenes, 2004
+
+  - Text information extraction in images and video: a survey, 2004
+
+  - Text Detection in Images Based on Unsupervised Classification of High-Frequency Wavelet Coefficients, 2004
+
+  - Camera-based analysis of text and documents: a survey, 2005
+
+  - A stroke filter and its application to text localization, 2009
+
+  - A Laplacian Method for Video Text Detection, 2009
+
+  - Detecting Text in Natural Scenes with Stroke Width Transform, 2010
+
+  - A Skeleton-Based Method for Multi-Oriented Video Text Detection, 2010
+
+  - A Laplacian Approach to Multi-Oriented Text Detection in Video, 2011
+
+  - Text Detection and Recognition in Imagery: A Survey, 2015
